@@ -96,7 +96,7 @@ function initTilt(panel, card){
    what to do instead of a silent broken link.
    ========================================================== */
 function initResumeButton(button){
-  const RESUME_PATH = 'resume.pdf'; // <-- point this at your real file
+  const RESUME_PATH = 'Sasikumar_V_CV.pdf'; // <-- point this at your real file
 
   button.addEventListener('click', async () => {
     button.classList.add('is-loading');
